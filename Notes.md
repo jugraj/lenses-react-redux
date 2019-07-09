@@ -13,4 +13,4 @@ Open http://localhost:8000/
 
 ## Thoughts:
 
-Overall code seems to be good. I had to update and add a few libraries. The Hot reload doesnt maintain the session, which meant any updates I was making to the code, I had to reconnect to the sockets.
+Overall code seems to be good. I had to update and add a few libraries. The Hot reload doesnt maintain the session, which meant any updates I was making to the code, I had to reconnect to the sockets. I had a test fail due to some methods from legacy code being undefined - Cannot read property 'scrollToRow' of undefined.
